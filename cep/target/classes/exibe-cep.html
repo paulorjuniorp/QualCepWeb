@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="exibe-cep"  method="POST">
+
+<CENTER><FONT COLOR=BLUE SIZE=6>TABELA</FONT></CENTER>
+<BR>
+<TABLE > 
+<TR>
+<TD >Logradouro</TD> <! Aqui foi criada uma célula>
+<TD>Bairro</TD>
+<TD>Localidade </TD>
+<TD>CEP</TD>>
+</TR> <! Fecha a primeira linha da tabela>
+<TR> <! Abre a segunda linha da tabela>
+<TD> ${param.logradouro} </TD>
+<TD>${param.bairro} </TD>
+<TD>${param.cidade}  </TD>
+<td>${param.cep} </td>>
+<TR> <! Encerra a Segunda linha da tabela>
+</TABLE> <! Encerra a tabela>
+
+</body>
+</html>
